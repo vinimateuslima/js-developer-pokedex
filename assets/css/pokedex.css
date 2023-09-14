@@ -78,6 +78,10 @@
     background-color: #f9aec7;
 }
 
+a {
+    text-decoration: none;
+}
+
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -144,6 +148,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
